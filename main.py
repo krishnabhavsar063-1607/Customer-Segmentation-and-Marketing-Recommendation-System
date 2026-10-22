@@ -113,7 +113,7 @@ plt.ylabel("WCSS")
 plt.grid(True)
 
 plt.savefig("outputs/elbow_plot.png")
-plt.show()
+plt.close()
 
 # ---------------------------
 # Final KMeans Model
@@ -163,7 +163,7 @@ plt.ylabel("Spending Score (1-100)")
 plt.legend()
 
 plt.savefig("outputs/customer_clusters.png")
-plt.show()
+plt.close()
 
 # ---------------------------
 # Cluster Summary
